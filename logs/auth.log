@@ -1,0 +1,4 @@
+Jan  1 10:01:22 server sshd[1234]: Failed password for invalid user root from 192.168.0.10 port 55832 ssh2
+Jan  1 10:02:15 server sshd[1235]: Accepted password for user from 192.168.0.15 port 55833 ssh2
+Jan  1 10:03:40 server sshd[1236]: error: PAM: Authentication failure for illegal user admin from 192.168.0.20
+Jan  1 10:05:01 server sshd[1237]: Unauthorized access attempt detected from 192.168.0.30
