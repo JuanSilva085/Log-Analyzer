@@ -9,6 +9,16 @@ Este projeto implementa um analisador de arquivos de log em Python, detecta ativ
 - Conta as ocorrências de cada padrão
 - Exporta resultados como 'arquivo CSV' para analisar
 
+`````
+python analisador_logs.py
+Resultados da Análise de Logs:
+Failed password: 1 ocorrências
+Invalid user: 1 ocorrências
+error: 1 ocorrências
+unauthorized: 1 ocorrências
+Resultados estão no 'resultados_logs.csv'
+`````
+
 ## Detalhes Técnicos
 
 Leitura de logs: feita com open() e processamento linha a linha para suportar arquivos grandes.
